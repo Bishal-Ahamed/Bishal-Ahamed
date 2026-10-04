@@ -1,0 +1,122 @@
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+/* navbar starts form here */
+
+.nav-logo {
+  text-align: left;
+}
+
+.nav-hreader {
+  text-align: right;
+}
+
+.nav-home {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.nav-home a {
+  padding: 5px 10px;
+  margin: 20px 0;
+  background-color: transparent;
+}
+
+/* navbar ends form here */
+
+/* profile starts here  */
+
+.profile .profile-logo-1 {
+  right: 100px;
+  top: 15px;
+  transition: transform 2s width 2s;
+}
+
+.profile .profile-logo-1:hover {
+  width: 140px;
+}
+
+.profile .profile-logo-2 {
+  bottom: 30px;
+  left: 70px;
+  transition: transform 2s width 2s;
+}
+
+.profile .profile-logo-2:hover {
+  width: 140px;
+}
+
+/* profile ends here  */
+
+/* about-me starts here */
+.aboutme-link {
+  text-align: left;
+}
+
+.about-me-img img {
+  margin-top: 60px;
+  height: 250px;
+  width: 250px;
+}
+
+/* about-me ends here */
+
+/* Achievements-Contact starts here */
+.more-contact {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  margin-top: 200px;
+}
+
+/* Achievements-Contact ends here */
+
+/*  footer start form here */
+.footer-menu {
+  margin-top: 12px;
+}
+
+.footer-menu a {
+  display: inline;
+  padding: 10px;
+}
+/* footer ends for here */
